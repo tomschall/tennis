@@ -17,7 +17,7 @@
             
             var player1Score = 0;
             var player2Score = 0;
-            const WINNING_SCORE = 3;
+            const WINNING_SCORE = 10;
             
             var showingWinScreen = false;
             
@@ -124,7 +124,7 @@
             }
             
             function drawNet() {
-                for(var i=0; i < canvas.height; i+=40) {
+                for(var i=10; i < canvas.height; i+=40) {
                     colorRect(canvas.width/2-1, i, 2, 20, 'white');
                 }
             }
